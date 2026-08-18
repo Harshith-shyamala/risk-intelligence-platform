@@ -1,0 +1,26 @@
+name: Feature request
+description: Propose a product, platform, or risk-operations improvement.
+title: "[Feature]: "
+labels: [enhancement, triage]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: Which user or operational problem should be solved?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed outcome
+      description: Describe the desired behavior without prescribing unnecessary implementation details.
+    validations:
+      required: true
+  - type: textarea
+    id: controls
+    attributes:
+      label: Controls and tradeoffs
+      description: Note model-risk, security, privacy, compliance, or operational implications.
+    validations:
+      required: true
